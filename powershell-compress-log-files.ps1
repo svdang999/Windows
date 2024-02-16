@@ -1,4 +1,5 @@
 # Compress files older than xxx days script
+# Tested in Windows Server
 $limit = (Get-Date).AddDays(-30)
 $path = "C:\Test\2015\test\api\Log"
 
